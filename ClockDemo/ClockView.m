@@ -50,6 +50,7 @@
     [self timePointerWithCenter:center angle:M_PI_2 / 15 * CURRENTSECOND - M_PI_2 + (CURRENTNANOSECOND * M_PI *2/60/1000000000) radius:90 lineWidth:1.0 color:[UIColor redColor]];
     
     //绘制时钟中心点
+    //黑圈
     UIBezierPath *path = [UIBezierPath bezierPathWithArcCenter:center radius:5 startAngle:0 endAngle:M_PI*2 clockwise:YES];
     
     path.lineWidth = 3.0;
@@ -58,6 +59,7 @@
     
     [path stroke];
     
+    //黄色填充
     UIBezierPath *path1 = [UIBezierPath bezierPathWithArcCenter:center radius:4 startAngle:0 endAngle:M_PI*2 clockwise:YES];
     
     [[UIColor blackColor] set];
