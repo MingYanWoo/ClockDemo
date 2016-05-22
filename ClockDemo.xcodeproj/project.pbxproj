@@ -13,6 +13,7 @@
 		F825E2BF1CEC42AA00F8B0D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F825E2BD1CEC42AA00F8B0D1 /* Main.storyboard */; };
 		F825E2C11CEC42AA00F8B0D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F825E2C01CEC42AA00F8B0D1 /* Assets.xcassets */; };
 		F825E2C41CEC42AA00F8B0D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F825E2C21CEC42AA00F8B0D1 /* LaunchScreen.storyboard */; };
+		F825E2CD1CEC464A00F8B0D1 /* ClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = F825E2CC1CEC464A00F8B0D1 /* ClockView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		F825E2C01CEC42AA00F8B0D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F825E2C31CEC42AA00F8B0D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F825E2C51CEC42AA00F8B0D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F825E2CB1CEC464A00F8B0D1 /* ClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockView.h; sourceTree = "<group>"; };
+		F825E2CC1CEC464A00F8B0D1 /* ClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				F825E2B81CEC42AA00F8B0D1 /* AppDelegate.m */,
 				F825E2BA1CEC42AA00F8B0D1 /* ViewController.h */,
 				F825E2BB1CEC42AA00F8B0D1 /* ViewController.m */,
+				F825E2CB1CEC464A00F8B0D1 /* ClockView.h */,
+				F825E2CC1CEC464A00F8B0D1 /* ClockView.m */,
 				F825E2BD1CEC42AA00F8B0D1 /* Main.storyboard */,
 				F825E2C01CEC42AA00F8B0D1 /* Assets.xcassets */,
 				F825E2C21CEC42AA00F8B0D1 /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F825E2BC1CEC42AA00F8B0D1 /* ViewController.m in Sources */,
+				F825E2CD1CEC464A00F8B0D1 /* ClockView.m in Sources */,
 				F825E2B91CEC42AA00F8B0D1 /* AppDelegate.m in Sources */,
 				F825E2B61CEC42AA00F8B0D1 /* main.m in Sources */,
 			);

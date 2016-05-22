@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "ClockView.h"
+
+#define CURRENTSECOND [[NSCalendar currentCalendar] component:NSCalendarUnitSecond fromDate:[NSDate date]]
 
 @interface ViewController ()
 
@@ -16,6 +19,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    ClockView *cw = [[ClockView alloc] init];
+    
+    [self.view addSubview:cw];
+    
+    [cw setNeedsDisplay];
+    
+    [cw start];
+
     // Do any additional setup after loading the view, typically from a nib.
 }
 
